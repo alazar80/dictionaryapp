@@ -1,0 +1,15 @@
+CREATE TABLE dictionary (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    amharic TEXT,
+    english TEXT
+);
+
+INSERT INTO dictionary (amharic, english) VALUES
+('ሰላም', 'Hello'),
+('መጽሐፍ', 'Book'),
+('ቤት', 'House'),
+('ትምህርት', 'Education'),
+('ውሻ', 'Dog'),
+('ድንበር', 'Border'),
+('ሰው', 'Person'),
+('ምግብ', 'Food');
